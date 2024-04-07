@@ -101,7 +101,7 @@ class EventsPage extends ConsumerWidget {
                               ),
                             ));
                   }
-                  return Center(
+                  return const Center(
                     child: CircularProgressIndicator(),
                   );
                 }));
