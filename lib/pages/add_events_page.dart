@@ -22,7 +22,7 @@ class AddEventsScreen extends StatelessWidget {
       backgroundColor: Colors.transparent,
       appBar: AppBar(
         backgroundColor: Colors.black87,
-        title: Center(child: const Text("Share Events Around You")),
+        title: const Center(child: Text("Share Events Around You")),
       ),
       body: Center(
         child: FormBuilder(
@@ -154,7 +154,7 @@ class AddEventsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              TextButton(onPressed: () {}, child: Text(data))
+              TextButton(onPressed: () {}, child: const Text("data"))
             ],
           ),
         ),
